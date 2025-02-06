@@ -12,4 +12,10 @@ mkdir build && cd build && cmake ..
 make
 sudo make install
 ```
-
+## how to use
+```bash
+cd FAST-LIVO2
+catkin_make
+source devel/setup.sh
+roslaunch fast-livo mapping_mid360.launch
+```
